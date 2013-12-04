@@ -19,7 +19,7 @@ grunt.initConfig({
     options: {
         browsers: [
             'last 2 version',
-            ''> 1%',
+            '> 1%',
             'ie 8',
             'android 4'
             ]
@@ -31,7 +31,7 @@ grunt.initConfig({
       dest: 'dest/css/file.css'
     },
 
-    // Omit the 'dest' parameter to overwrite your source file(s)
+    // Omit the `dest` parameter to overwrite your source file(s)
     overwrite: {
       src: 'dest/css/file.css' // globbing is also possible here
     }
@@ -44,7 +44,9 @@ grunt.initConfig({
 
 [How To Deal With Vendor Prefixes](http://css-tricks.com/how-to-deal-with-vendor-prefixes/) by Chris Coyier. December 2012.
 
-Older posts. These posts contain partially outdated information but they're useful if you want more context.
+### Older posts
+
+These posts contain partially outdated information but they're useful if you want more context.
 
 [Vendor Prefixes - about to go south](http://remysharp.com/2012/02/09/vendor-prefixes-about-to-go-south/) by Remy Sharp. February 2012.
 
