@@ -15,7 +15,7 @@ Notes, examples, and further reading from a December 2013 presentation I gave on
 
 ## Slides
 
-[The slides from this talk](https://speakerdeck.com/noahcollins/smarter-css-prefixes-with-autoprefixer).
+[The slides from this talk](https://speakerdeck.com/noahcollins/smarter-css-prefixes-with-grunt-autoprefixer).
 
 ## More Documentation
 
