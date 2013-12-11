@@ -68,10 +68,7 @@ These posts contain partially outdated information but they're useful if you wan
 
 [New Proposal Could End the CSS Prefix Madness](http://www.webmonkey.com/2012/05/new-proposal-could-end-the-css-prefix-madness/) by Scott Gilbertson. May 2012.
 
-## Alternative prefixing tools
-
-
 
 ## License
 
-MIT License • © [Noah Collins](https://twitter.com/noahec)
+MIT License © [Noah Collins](https://twitter.com/noahec)
