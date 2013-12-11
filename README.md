@@ -1,11 +1,27 @@
 vendor-prefixes-talk
 ====================
 
-Notes, examples, and further reading from a December 2013 presentation I gave on CSS Vendor Prefixes and the [grunt-autoprefixer](https://github.com/nDmitry/grunt-autoprefixer) task.
+Notes, examples, and further reading from a December 2013 presentation I gave on CSS Vendor Prefixes and the [grunt-autoprefixer](https://github.com/nDmitry/grunt-autoprefixer) task. I welcome your questions and feedback. Create an issue or send me pull request.
 
-## Autoprefixer Documentation
+#### Outline
 
-Refer to the [grunt-autoprefixer GitHub repo](https://github.com/nDmitry/grunt-autoprefixer) for documentation.
+ - CSS vendor prefixes come and go regularly; keeping them current requires research and upkeep. 
+
+ - Preprocessors and mixin libraries are excellent tools, but they still require some maintenance.
+
+ - Autoprefixer takes a supplied configuration, references the Can I Use API, and outputs only the prefixes you need.
+
+ - Your source CSS files no longer need prefixes, so they're easier to maintain. Prefixes are added/removed automatically, based on your configuration and current browser market share.
+
+## Slides
+
+[The slides from this talk](https://speakerdeck.com/noahcollins/smarter-css-prefixes-with-autoprefixer).
+
+## More Documentation
+
+To see more details about using the grunt-autoprefixer task, refer to the [grunt-autoprefixer GitHub repo](https://github.com/nDmitry/grunt-autoprefixer).
+
+For more details about configuring specific browser support, see the Browsers section of the [autoprefixer docs](https://github.com/ai/autoprefixer#browsers).
 
 ## Sample Configuration
 
@@ -51,6 +67,10 @@ These posts contain partially outdated information but they're useful if you wan
 [Vendor Prefixes - about to go south](http://remysharp.com/2012/02/09/vendor-prefixes-about-to-go-south/) by Remy Sharp. February 2012.
 
 [New Proposal Could End the CSS Prefix Madness](http://www.webmonkey.com/2012/05/new-proposal-could-end-the-css-prefix-madness/) by Scott Gilbertson. May 2012.
+
+## Alternative prefixing tools
+
+
 
 ## License
 
